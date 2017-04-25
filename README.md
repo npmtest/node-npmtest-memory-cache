@@ -1,6 +1,6 @@
 # npmtest-memory-cache
 
-#### test coverage for  [memory-cache (v0.1.6)](https://github.com/ptarjan/node-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-memory-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memory-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memory-cache.svg)](https://travis-ci.org/npmtest/node-npmtest-memory-cache)
+#### basic test coverage for  [memory-cache (v0.1.6)](https://github.com/ptarjan/node-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-memory-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memory-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memory-cache.svg)](https://travis-ci.org/npmtest/node-npmtest-memory-cache)
 
 #### A simple in-memory cache. put(), get() and del()
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-memory-cache/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-memory-cache/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-memory-cache/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-memory-cache/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memory-cache/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memory-cache/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-memory-cache/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-memory-cache/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memory-cache/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memory-cache/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-memory-cache/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-memory-cache/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "0.1.6"
+    "version": "0.1.6",
+    "bin": {}
 }
 ```
 
